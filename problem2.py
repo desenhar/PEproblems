@@ -1,18 +1,21 @@
-fib = 1
-fib2 = 2
-temp = 0
-total = 0
+def fib():
+    x, y = 0, 1
+    while True:
+        yield x
+        x, y = y, x + y
 
 
+def even(sequence):
+    for number in sequence:
+        if not number % 2:
+            yield number
 
 
+def under_four_million(sequence):
+    for number in sequence:
+        if number > 4000000:
+            break
+        yield number
 
-while temp <=4000000:
-    temp = fib2
-    if temp % 2 == 0:
-        total += temp
-    temp = fib + fib2
-    fib = fib2
-    fib2 = temp
 
-print (total)
+print(sum(even(under_four_million(fib()))))
