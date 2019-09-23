@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468c015d-c94a-45e2-b4a0-db8db1f3d428" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem1.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.problem1">
     <configuration name="problem1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="projecteuler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.projecteuler" />
       <item itemvalue="Python.problem1" />
       <item itemvalue="Python.problem2" />
       <item itemvalue="Python.problem3" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.python4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.problem3" />
-        <item itemvalue="Python.problem2" />
         <item itemvalue="Python.problem1" />
-        <item itemvalue="Python.projecteuler" />
+        <item itemvalue="Python.problem3" />
+        <item itemvalue="Python.python4" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.problem2" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569235146005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RH: problem 3">
+      <created>1569237390607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569237390607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RH: problem 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="RH: problem 2" />
+    <MESSAGE value="RH: problem 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="RH: problem 3" />
   </component>
 </project>

@@ -3,6 +3,10 @@ fib2 = 2
 temp = 0
 total = 0
 
+
+
+
+
 while temp <=4000000:
     temp = fib2
     if temp % 2 == 0:
