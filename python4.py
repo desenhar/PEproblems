@@ -1,18 +1,11 @@
-fib = 1
-fib2 = 2
-temp = 0
-total = 0
+"""generates a list of palindromes, converts to string and checks if its reversible"""
 
+find_palindrome = []
+for a in range(100, 999):
+    for b in range(100, 999):
+        num = str(b * a).split()[0]
+        if str(num) == str(num[::-1]):
+            find_palindrome.append(b * a)
+print(max(find_palindrome))
 
-
-
-
-while temp <=4000000:
-    temp = fib2
-    if temp % 2 == 0:
-        total += temp
-    temp = fib + fib2
-    fib = fib2
-    fib2 = temp
-
-print (total)
+"""prints largest palindrome in the list"""
