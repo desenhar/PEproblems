@@ -4,7 +4,6 @@
     <list default="true" id="468c015d-c94a-45e2-b4a0-db8db1f3d428" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem3.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,8 +151,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.python4" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.problem3" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.problem1" />
       </list>
     </recent_temporary>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569242386630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RH: problem 4">
+      <created>1569247875062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569247875062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +221,7 @@
     <MESSAGE value="RH: problem 2" />
     <MESSAGE value="RH: problem 3" />
     <MESSAGE value="RH: problem 2 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="RH: problem 2 updated" />
+    <MESSAGE value="RH: problem 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="RH: problem 4" />
   </component>
 </project>

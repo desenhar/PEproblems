@@ -1,8 +1,13 @@
 import math
 
 
-def is_prime(num):
-    for i in range(2, int(math.sqrt(num)) + 1):
-        if num % i == 0:
-            return False
+def largest_prime_factor(num, div=2):
+    while div < num:
+        if num % div == 0 and num/div > 1:
+            num = num /div
+            div = 2
+        else:
+            div = div + 1
+    return num
+    print(largest_prime_factor())
 

@@ -3,7 +3,7 @@
 find_palindrome = []
 for a in range(100, 999):
     for b in range(100, 999):
-        num = str(b * a).split()[0]
+        num = str(b * a)
         if str(num) == str(num[::-1]):
             find_palindrome.append(b * a)
 print(max(find_palindrome))
